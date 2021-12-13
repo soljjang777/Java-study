@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+
+body {
+	background: ibory;
+}
+
+#unitTbl {
+	margin-top : 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 500px;
+	background-color: #E9A6A6;
+	color: white;
+}
+
+#unitTbl
+td {
+	font-size: 20pt;
+	font-weight: 900;
+	text-align: center;
+}
+#unitTbl
+select {
+	width: 200px;
+	height: 40px;
+
+}
+
+#unitTbl
+button {
+	width: 200px;
+	height: 60px;
+	font-size: 30px;
+	color: black;
+	background: white;
+	border-color: balck;
+	border-radius: 3px
+	
+}
+
+#unitTbl
+#main {
+	background: white;
+	color: #FF9292;
+	width: 350px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#unitTbl
+input {
+	width: 200px;
+	height: 30px;
+}
+
+
+.a2 {
+	background-color: red;
+}
+
+
+.b2 {
+	background-color: blue;
+}
+
+
+.c2 {
+	background-color: green;
+}
+
+
+.d2 {
+	background-color: black;
+}
