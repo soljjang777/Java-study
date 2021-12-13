@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function go() {
+	location.herf = 'second.jsp?a=5&b=10';
+}
+</script>
+</head>
+<body>
+<!-- 
+	reqest
+	1. <a>클릭 - GET
+	2. <form> 속에 <button>클릭 - get, post
+	   사용자의 입력들을 편하게 받을 수 있음	
+	3. JavaScript (클릭) - GET   
+ -->
+ <a href="second.jsp?a=10&b=20">10이랑 20을 더하기로 고정됨(변환안됨)</a>
+ 
+<form action="second.jsp">
+	a <input name="a"> <p>
+	b <input name="b"> <p>
+	<button>계산</button>
+</form>
+<hr>
+<h2 onclick="go();">5 + 10 계산하기</h2>
+
+</body>
+</html>

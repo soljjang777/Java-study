@@ -1,0 +1,54 @@
+HTML : 웹 사이트 제작 가능
+--------------------- 디자인, 기능적 한계
+HTML : 뼈대
+CSS : 다지안
+JS :기능, 이벤트
+--------------------- 프로그래밍 언어 JAVA
+
+Servlet (Sever + Applet(application))
+ 자바 프로그램 
+ 
+ 사용자가 요청을 하면 HTML + CSS + JS 를 만들어내는 프로그램
+ 단순 Web Server에서는 실행이 안됨
+ WAS에서 실행 (infinity free는 WAS 급이 안됨)
+ 
+ WAS는 공짜가 없음 (카페24 등등 )
+ 
+ 내 컴퓨터를 WAS로
+ 
+ node.js
+ django
+ ..
+ tomcat
+ 
+ Web Application sever
+  프로그램 실행기능 추가된 웹 서버
+  
+ 톰캣WAS : 8080 (오라클 사용안할때 연습용 포트)
+ 
+ IT바닥의 약속
+ 	웹 서비스 : 80
+ 
+ localhost:8080(바꾸지 않았더면 이케 뜸) 바꾸면 ->	 localhost:80
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="reg.css">
+</head>
+<body>
+
+<form action="Reg" method="post">
+	<table border="">
+		<tr>
+			<td colspan="2">회원가입</td>
+		</tr>
+		<tr>
+			<td>이름</td>
+			<td><input name="name"></td>
+		</tr>
+		<tr>
+			<td>ID</td>
+			<td><input name="id"></td>
+		</tr>		
+		<tr>
+			<td>PW</td>
+			<td><input type="password" name="pw"></td>
+		</tr>		
+		<tr>
+			<td>성별</td>
+			<td>남<input type="radio" name="sex" value="남자">여<input type="radio" name="sex" value="여자"></td>
+		</tr>		
+		<tr>
+			<td>주소</td>
+			<td><select name="adress">
+			<option value="서울">서울</option>
+			<option value="경기">경기</option>
+			<option value="부산">부산</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>관심사</td>
+			<td>
+			요리<input type="checkbox" name="hobby" value="요리">
+			운동<input type="checkbox" name="hobby" value="운동">
+			게임<input type="checkbox" name="hobby" value="게임">
+			개발<input type="checkbox" name="hobby" value="개발">
+			</td>
+		</tr>
+		<tr>
+			<td>자기소개</td>
+			<td><textarea name="itd"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button>가입</button></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>

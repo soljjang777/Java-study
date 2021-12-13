@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="NewFile.css">
+<script type="text/javascript" src="check.js"></script>
+<script type="text/javascript" src="validCheck.js"></script>
+<script type="text/javascript">
+/*
+function call(){
+	let input1 = document.getElementById('i1');
+	let input2 = document.getElementById('i2');
+	let input3 = document.getElementById('i3');
+	
+	if(input1.value == ""){	
+		alert("이름을 입력하세요");
+		input1.focus();
+		return false;
+		}else if(input1.value.length <= 1){
+		alert("이름을 2자리 이상입력해주세요")
+		input1.focus();
+		input1.value = "";
+		return false;
+		}
+	if(input2.value == ""){	
+		alert("키를 입력하세요");
+		input2.focus();
+		return false;
+		}else if(isNaN(input2.value) || input2.value.length <= 2){
+		alert("키-숫자 3자리 이상입력해주세요")
+		input2.focus();
+		input2.value = "";
+		return false;
+		}	
+	if(input3.value == ""){	
+		alert("체중을 입력하세요");
+		input3.focus();
+		return false;
+		}else if(isNaN(input3.value) || input3.value.length <= 1){
+		alert("체중-숫자 2자리 이상입력해주세요")
+		input3.focus();
+		input3.value = "";
+		return false;
+		}	
+	
+		return true;
+}
+*/
+</script>
+</head>
+<body>
+<form action="Bmi.jsp" enctype="multipart/form-data" method="post" onsubmit="return call();">
+	<table>
+	<tr>
+		<td style="background-color: #F4A442; color: white;" colspan="2">BMI검사</td>
+	</tr>
+	<tr>
+		<td id="td1">이름</td>
+		<td><input name="name" placeholder="글자만입력해주세요(2자리이상)" id="i1"></td>
+	</tr>
+	<tr>
+		<td id="td1">키</td>
+		<td><input name="height" placeholder="숫자만입력하세요(3자리이상)" id="i2"></td>
+	</tr>
+	<tr>
+		<td id="td1">체중</td>
+		<td><input name="weight" placeholder="숫자만입력해주세요(2자리이상)" id="i3"></td>
+	</tr>
+	<tr>
+		<td>사진</td>
+		<td><input type="file" name="sa"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><button>계산</button></td>
+	</tr>
+	<tr>
+		<td colspan="2"><img id="jibang" src="img/지방이.png"></td>
+	</tr>
+	</table>
+</form>
+</body>
+</html>
